@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Угадай число</title>
+  </head>
+  <body>
+    <div class="game">
+      <div class="game__wrapper">
+        <button class="game__btn btn" type ="button">снова!</button>
+        <span class="gamge__info">(Число между 1 и 20)</span>
+        <div class="game__secret-group">
+          <h1 class="game__title">угадай число</h1>
+          <div class="game__secret-num"><span class="question">?</span></div>
+        </div>
+
+        <div class="game__guess-group">
+          <form action="#" class="game__form form">
+            <span class="form__title">Начните угадывать</span>
+            <input class="form__enter" type="text">
+            <button class="form__btn btn" type="button">Проверка!</button>
+          </form>
+          <div class="game__scores__group">
+            <span class="game__scores">Счёт: </span>
+            <span class="game__record">Рекорд:</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
